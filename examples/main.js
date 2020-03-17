@@ -1,6 +1,8 @@
 import Vue from 'vue'
 import App from './App.vue'
+import SwordArtOnlineUI from '../packages'
 
+Vue.use(SwordArtOnlineUI)
 Vue.config.productionTip = false
 
 new Vue({
