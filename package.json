@@ -1,7 +1,11 @@
 {
-  "name": "sao-ui",
+  "name": "swordartonline-ui",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "main":"dist/swordartonline-ui.umd.min.js",
+  "author": {
+    "name":"陈龙"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
